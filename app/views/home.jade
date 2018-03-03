@@ -1,0 +1,44 @@
+extends layout
+
+block content
+	hr
+	ol
+		h4 Unique Companies
+		for c in companies
+			li #{c}
+	ol
+		h4 Unique Universities
+		for c in universities
+			li #{c}
+	if data == ''
+		#item-null-div.text-center
+			h1 No items
+	else
+		.container-fluid
+			table.table
+				thead
+					tr
+					th Id
+					th FirstName
+					th LastName
+					th Gender
+					th Company Name
+					th Job Title
+					th University
+					th Skill
+				tbody
+				for users in data
+					tr
+					td #{users.id}
+					td #{users.firstName}
+					td #{users.lastName}
+					td #{users.gender}
+					td #{users.companyName}
+					td #{users.jobTitle}
+					td #{users.university}
+					td #{users.skill}		
+
+
+
+ 
+						
