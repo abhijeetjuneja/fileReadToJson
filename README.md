@@ -1,18 +1,24 @@
-# Robust Express JS Application for an Ecommerce Website
-This is a Robust ExpressJS application along with Jade Templating Engine and MongoDB for an e-commerce website.
+# Express JS Application for Text file reading
+This is an ExpressJS application along with Jade Templating Engine to convert basic raw text from text file to JSON.
 
 ## Getting Started
 
-Install all Dependencies using 'npm install'.Start a Node JS Server along with MongoDB and fire up localhost.
+Install all Dependencies using 'npm install'.Start Node JS Server and fire up localhost.
 
 ## Dependencies
 * NPM
 * Node JS
-* MongoDB
 
 ## Built With
 
 * NodeJS
 * ExpressJS
-* Jade 
-* MongoDB 
+* Jade
+
+## Workflow
+
+1) Fetch Txt file url.
+2) Process the text.
+3) Convert into proper JSON format.
+4) Send JSON to client.
+5) Display JSON to client.
